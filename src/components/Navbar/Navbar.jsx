@@ -1,7 +1,7 @@
 import React from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi';
 
-const Navbar = ({ sideBar, setSideBar }) => {
+const Navbar = () => {
     return (
         <div className='absolute top-0 left-0 w-full py-2 text-white z-20'>
             <div className="container">

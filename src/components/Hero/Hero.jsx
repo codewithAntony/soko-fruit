@@ -1,7 +1,7 @@
 import React from 'react'
 import OrangeImg from '../../assets/orangebg.png'
 import Navbar from '../Navbar/Navbar';
-import { FaFacebookF, FaLinkedinIN } from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa6';
 
 const Hero = () => {
@@ -54,7 +54,7 @@ const Hero = () => {
                                         <FaInstagram className='text-2xl' />
                                     </div>
                                     <div className='inline-block p-2 rounded-full cursor-pointer border border-white'>
-                                        <FaLinkedinIN className='text-2xl' />
+                                        <FaLinkedinIn className='text-2xl' />
                                     </div>
                                 {/* line */}
                                 <div className='w-[1px] h-[70px] bg-white'></div>
